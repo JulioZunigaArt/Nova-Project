@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color:rgb(22, 31, 35);
+    
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap: 1em;
+   
+}
+.title {
+    color: white;
+    grid-area: 1/ span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px #fd5c63;
+    background: #fd5c63;
+   
+  }
+
+.title2{
+    background-color: rgb(22, 31, 35);
+    z-index: 1;
+    padding: 2em;
+}
+
+.rain {
+    position: absolute;
+    width: 500px;
+    
+}
+.rain2 {
+    position: absolute;
+    width: 500px;
+    right: 0;
+}
+.rain3 {
+    position: absolute;
+    width: 500px;
+    left: 0;
+}
+
+
+
+
+.intro{
+    grid-area: 2/ span 2;
+    padding: 2em;
+    
+  }
+
+form {
+    grid-area: 2/3 / span 2  ;
+    background-color: #fd5c63;
+    
+    
+  }
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    
+}
+
+button{
+    border: none;
+    background-color: rgb(69, 49, 49);
+    padding: 2em 3em ;
+    color: whitesmoke;
+    border-radius: 0.5em;
+    
+    
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+img{
+    
+    width: 100%;
+}
+
+.services {
+    grid-area: 3/span 2;
+    padding: 2em;
+     
+  }
+
+.market {
+    grid-area: 4/span 2;
+    padding: 2em;
+   
+}
+
+.end {
+    grid-area: 5/span 2;
+    padding: 2em;
+}
+
+.scroll-bg {
+   background-color: #fd5c63;
+   width: 60em;
+    
+    
+    
+}
+.scroll-div{
+    width: 60em;
+    background:#fd5c63;
+    height: 39em;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+.scroll-object{
+    padding: 2em;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px whitesmoke;
+}
+
+.intro2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px whitesmoke;
+}
+
+.intro3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px whitesmoke;
+}
+
+.intro4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 3px 2px whitesmoke;
+    font-size: 0.9em;
+}
+
+.text {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid black;
+    width: 500px;
+
+}
